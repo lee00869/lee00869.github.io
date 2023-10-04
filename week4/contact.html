@@ -42,6 +42,70 @@
                 </tr>
             </tbody>
         </table>
+
+        <!-- Adding section for contact form -->
+        <section>
+            <h3>We would love to hear from you!</h3>
+            <!-- Adding a form -->
+            <form action="thanks.html" method="post"> 
+                <fieldset>
+                    <legend>INFORMATION</legend>
+                <div>
+
+                    <label for="fullname">Your Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Jane/John Doe" required>
+                </div>
+                    <br>
+                <div>
+                    <label for="email"> Your Email </label>
+                    <input type="text" id="Email" name="youremail" placeholder="Algonquin Email" value="@algonquinlive.com">
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" ></textarea>
+                </div>
+                <br>
+
+                <div>
+                    <label for="tickets">How many tickets? &#40sold in pairs&#41</label>
+                    <input type="number" name="tickets" id="tickets" min="2" max="10" step="2" value="2">
+                </div>
+                <br>
+
+                <div>
+                    <label for="row">Row</label>
+                    <select name="row" id="row">
+                        <option value="front">Front</option>
+                        <option value="center" selected>Center</option>
+                        <option value="back">Back Row</option>
+                    </select>
+                </div>
+                <br>
+    
+                <div>
+                    <h3>Have you ever been here before</h3>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="past" id="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="past" id="no">
+                </div>
+                <br>
+
+                <div>
+                    <h3>Policies</h3>
+                    <label for="policies">I agree to the term of conditions. </label>
+                    <input type="checkbox" name="policies" id="policies">
+                </div>
+<br>
+<br>
+
+                <button type="button">Submit</button>
+
+            </fieldset>
+            </form>
+            
+        </section>
     </main>
     <!-- Site Footer -->
     <footer>
