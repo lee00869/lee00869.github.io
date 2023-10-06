@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--This is head-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobby</title>
+</head>
+
+<body>
+    <!--This is body-->
+    <header>
+        <h1>Che-Cheng Lee</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notes.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Me</h2>
+        <table border>
+            <caption>Open Hour</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mon-Fri</td>
+                    <td>9AM - 6PM</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td>9AM - 1PM</td>
+                </tr>
+                <tr>
+                    <td>Sun</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Adding section for contact form -->
+        <section>
+            <h3>Register </h3>
+            <!-- Adding a form -->
+            <form action="thanks.html" method="post"> 
+                <fieldset>
+                    <legend>Information</legend>
+                <div>
+
+                    <label for="fullname">Your Name</label>
+                    <input type="text" id="fullname" name="fullname" size="50" placeholder="Jason Lee" required>
+                </div>
+                    <br>
+                <div>
+                    <label for="email"> Your Email </label>
+                    <input type="text" id="email" name="youremail" size="50" placeholder="Algonquin Email" value="@algonquinlive.com">
+                </div>
+                <br>
+
+                <div>
+                    <label for="phone">Your Phone</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3} - [0-9]{7}" size="50" placeholder="XXX-XXXXXXX" required>
+                </div>
+                <br>
+                <div>
+                    <label for="row">Day</label>
+                    <select name="row" id="row">
+                        <option value="front">Monday</option>
+                        <option value="center" selected>Tuesday</option>
+                        <option value="back">Wednesday</option>
+                        <option value="back">Thursday</option>
+                        <option value="back">Friday</option>
+                        <option value="back">Saturday</option>
+
+
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for="hours">How many hours</label>
+                    <input type="number" name="hours" id="hours" min="0.5" max="2" step="0.5" value="0.5">
+                </div>
+                
+                <div>
+                    <h3>Have you registered before</h3>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="past" id="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="past" id="no">
+                </div>
+              
+
+                <div>
+                    <h3>Policies</h3>
+                    <label for="policies">I agree to the term of conditions. </label>
+                    <input type="checkbox" name="policies" id="policies">
+                </div>
+                <br>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" ></textarea>
+                </div>
+                <br>
+
+                <button type="button">Submit</button>
+                
+
+            </fieldset>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer>
+        Copywrite  &copy;Che-Cheng Lee, 2023
+    </footer>
+</body>
+
+</html>
