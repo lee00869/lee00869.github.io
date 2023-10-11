@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -14,14 +15,14 @@
         <h1> Reggie's Coffee Shop</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="contact.html" class="">Contact us</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!-- Adding an on page link -->
-        <a href="">Treat of Week</a>
+        <a href="#treatoftheweek" class="blue-link">Treat of Week</a>
         <article>
             <h2> Our Story</h2>
             <!-- Adding an image -->
@@ -33,7 +34,7 @@
                 Celebrating their 10<sup>th</sup> anniversary together in March 2024.
             </p>
 
-            <blockquote>
+            <blockquote class="large-text">
                 We love coffee! <cite>-Peggie and Maria</cite>
             </blockquote>
 
@@ -65,9 +66,9 @@
             </ol>
         </section>
         <!-- Adding a section for a description list -->
-        <section id="treatofthe">
-            <h3>Treat of the week</h3>
-            <dl>
+        <section id="treatoftheweek">
+            <h3 class="white-text">Treat of the week</h3>
+            <dl class="white-class">
                 <dt>Name</dt>
                 <dd>Banana Bread</dd>
 
@@ -95,7 +96,7 @@
         <!-- Adding section for Menu Table-->
         <section>
             <h3>Menu Specials</h3>
-            <table border>
+            <table>
                 <thead>
                     <tr>
                         <th colspan="2">Iteams</th>
@@ -122,7 +123,8 @@
         </section>
     </main>
     <!-- Site Footer -->
-    <footer>
+    <footer class="site-footer">
+        <br>
         <!-- Special symbols for html can be found by googling HTML Entities -->
         Copywrite &copy;Reggie's Coffee Shop, 2023
 
