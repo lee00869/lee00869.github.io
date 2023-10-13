@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header,
+footer {
+    background-color: blanchedalmond;
+}
+
+.site-title {
+    color: cornflowerblue;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+section h5+ul {
+    list-style: square;
+}
+
+section h5+ul li:nth-child(2n+1) {
+    background-color: khaki;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul .link,
+nav ul a:hover,
+nav ul a:focus {
+    background-color: mediumturquoise;
+}
