@@ -18,6 +18,7 @@ footer {
 
 section h5+ul {
     list-style: square;
+    
 }
 
 section h5+ul li:nth-child(2n+1) {
