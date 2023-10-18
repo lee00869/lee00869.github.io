@@ -5,10 +5,19 @@ Shortcut for adding the comment is command/control+/
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: blue;
     background-image: url(../images/white_brick_wall.png);
     
+}
+
+/* Box model examples */
+section p{
+    width: 50%;
+    /* single value = top/buttom/left/right */
+    /* 2 values = first value = top/buttom, second value = left/right */
+    padding: 1em, .5em;
+    margin: -1em 2em 2em 2em ;
 }
 
 h1{
@@ -17,6 +26,16 @@ h1{
 
 p{
     background-color: antiquewhite;
+}
+
+.container{
+    /* create a container containing everything inside the body tag */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
 }
 
 /* Selecting multiple elements */
@@ -32,8 +51,17 @@ nav ul{
     list-style: none;
 }
 
+nav ul li {
+    display: inline-block;
+    width: 48%;
+    padding: 2em;
+    box-sizing: border-box;
+
+}
+
 /* Selecting child element multiple levels */
 nav ul a {
+    display: block;
     color: brown;
     text-decoration: none;
 }
@@ -62,6 +90,9 @@ nav ul a {
 
 /* Selecting HTMl elements with class name */
 .blue-link{
+    padding: 1.5em;
+    width: 300px;
+    display: block;
     background-color:black;
     color: antiquewhite;
     text-decoration: none;
@@ -69,6 +100,25 @@ nav ul a {
 
 .large-text{
     font-size: 40px;
+}
+
+/* example of float */
+article, aside{
+    width: 80%;
+    background-color: rgba(255, 255,255, 0.6);
+    border: 1px solid black;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    float: left;
+}
+
+aside{
+    width: 20%;
+}
+
+/* clear float from the section */
+section{
+    clear: both;
 }
 
 .white-text{
