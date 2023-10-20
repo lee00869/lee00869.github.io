@@ -1,6 +1,8 @@
-/*
-Set Width and Border
-*/
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #aad4cf;
+}
 
 body{
   background-color: lightblue;
@@ -16,11 +18,7 @@ body{
 }
 
 
-.container{
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: #aad4cf;
-}
+
 
 
 
@@ -64,9 +62,7 @@ nav{
   padding: 0 10px 15px 0px;
 }
 
-footer{
-  float: right;
-}
+
 
 main{
   margin: 20px;
@@ -74,7 +70,18 @@ main{
 
 footer{
   margin: 0 40px 0 0 ;
+  position: relative;
+  margin-left: 85%;
   
+  
+}
+
+
+h1{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
