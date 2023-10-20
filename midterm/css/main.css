@@ -1,6 +1,6 @@
 .container{
   max-width: 1000px;
-  margin: 0 auto;
+  margin:0 auto;
   background-color: #aad4cf;
 }
 
@@ -93,9 +93,6 @@ aside ul li{
 .border{
   border-right: none;
 }
-
-
-
 
 
 
