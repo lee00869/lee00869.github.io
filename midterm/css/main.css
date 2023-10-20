@@ -33,7 +33,7 @@ h1{
 nav ul{
   list-style: none;
   
-  margin: 0px;
+  margin: 5px 0px 0px 0px ;
 }
 
 nav ul li{
@@ -51,7 +51,8 @@ nav ul a {
   text-decoration: none;
   color: black;
   text-align: center;
-
+  font-size: 18px;
+  font-weight: bold;
 }
 
 nav{
