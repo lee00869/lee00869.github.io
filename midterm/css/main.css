@@ -22,6 +22,8 @@ nav ul .current,
 nav ul a:hover, 
 nav ul a:focus{
     text-decoration: underline;
+    background-color: grey;
+    color: white;
 }
 
 
@@ -32,27 +34,33 @@ h1{
 
 nav ul{
   list-style: none;
-  
+  padding: 0px;
   margin: 5px 0px 0px 0px ;
+  overflow: hidden;
 }
 
 nav ul li{
   display: inline-block;
   width:33%;
+  
   padding: 1em;
   box-sizing: border-box;
   border-right: 1px solid black;
+  
 }
 
 
 
-nav ul a {
+nav ul li a {
   display: block;
   text-decoration: none;
+  padding: 10px;
   color: black;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+  margin: -16px;
+  margin-left: -20px;
 }
 
 nav{
