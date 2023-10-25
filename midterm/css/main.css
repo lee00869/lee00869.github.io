@@ -1,16 +1,16 @@
-.container{
+.container {
   max-width: 1000px;
-  margin:0 auto;
+  margin: 0 auto;
   background-color: lightblue;
 }
 
-body{
+body {
   background-color: #aad4cf;
   font-family: Arial, Helvetica, sans-serif;
-  
+
 }
 
-.img{
+.img {
   background: grey url(../images/lone-starfish-wide.jpg) no-repeat center;
   background-size: cover;
   font-size: 2rem;
@@ -20,33 +20,33 @@ body{
 
 
 nav ul .current,
-nav ul a:hover, 
-nav ul a:focus{
-    text-decoration: underline;
-    background-color: grey;
-    color: white;
-}
-
-
-h1{
+nav ul a:hover,
+nav ul a:focus {
+  text-decoration: underline;
+  background-color: grey;
   color: white;
-  
 }
 
-nav ul{
+
+h1 {
+  color: white;
+
+}
+
+nav ul {
   list-style: none;
   padding: 0px;
-  margin: 5px 0px 0px 0px ;
+  margin: 5px 0px 0px 0px;
   overflow: hidden;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
-  width:33%;
+  width: 33%;
   padding: 1em;
   box-sizing: border-box;
   border-right: 1px solid black;
-  
+
 }
 
 
@@ -60,15 +60,15 @@ nav ul li a {
   font-size: 18px;
   font-weight: bold;
   margin: -16px -16px -16px -21px;
-  
-  
+
+
 }
 
-nav{
+nav {
   text-align: center;
 }
 
-.small{
+.small {
   width: 150px;
   float: left;
   padding: 0 10px 15px 0px;
@@ -76,51 +76,47 @@ nav{
 
 
 
-main{
+main {
   margin: 20px;
 }
 
-footer{
-  margin: 0 40px 0 0 ;
+footer {
+  margin: 0 40px 0 0;
   position: relative;
   margin-left: 84%;
   padding-bottom: 20px;
-  
+
 }
 
 
-h1{
+h1 {
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-aside ul li{
+aside ul li {
   margin-left: -25px;
 }
 
-.border{
+.border {
   border-right: none;
   margin-right: -2px;
 }
 
-#fullname, #email{
+#fullname,
+#email {
   width: 918px;
 }
 
-#message{
+#message {
   width: 918px;
   height: 100px;
-  
+
 }
 
-button{
+button {
   background-color: lightblue;
   padding: 10px;
 }
-
-
-
-
-
