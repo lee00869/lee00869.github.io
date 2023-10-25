@@ -105,8 +105,20 @@ aside ul li{
   margin-right: -2px;
 }
 
+#fullname, #email{
+  width: 918px;
+}
 
+#message{
+  width: 918px;
+  height: 100px;
+  
+}
 
+button{
+  background-color: lightblue;
+  padding: 10px;
+}
 
 
 
