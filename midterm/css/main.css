@@ -19,7 +19,7 @@ body {
 }
 
 
-nav ul .current,
+nav ul .current .border,
 nav ul a:hover,
 nav ul a:focus {
   text-decoration: underline;
