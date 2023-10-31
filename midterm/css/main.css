@@ -2,6 +2,7 @@
   max-width: 1000px;
   margin: -20px auto 10px auto;
   background-color: lightblue;
+  overflow: hidden;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
   background-size: cover;
   font-size: 2rem;
   padding: 3em;
-
+  max-width: 100%;
 }
 
 
@@ -145,10 +146,11 @@ div>textarea{
   margin-top: 5px;
 }
 
-.buttom{
-  margin-top: -20px;
+h4{
+  margin-top: -5px;
 }
 
 .fish{
   margin-top: 30px;
 }
+
