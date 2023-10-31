@@ -10,13 +10,23 @@ body {
 
 }
 
-.img {
+.lone {
+
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 90px;
+
+}
+
+#img {
   background: grey url(../images/lone-starfish-wide.jpg) no-repeat center;
   background-size: cover;
   font-size: 2rem;
-  padding: 5em;
-  text-align: center;
+  padding: 3em;
+
 }
+
 
 
 nav ul .current .border,
@@ -28,10 +38,7 @@ nav ul a:focus {
 }
 
 
-h1 {
-  color: white;
 
-}
 
 nav ul {
   list-style: none;
