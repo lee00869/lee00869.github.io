@@ -1,6 +1,6 @@
 .container {
   max-width: 1000px;
-  margin: -20px auto 10px auto;
+  margin:0 auto;
   background-color: lightblue;
   overflow: hidden;
 }
@@ -8,24 +8,26 @@
 body {
   background-color: #aad4cf;
   font-family: Arial, Helvetica, sans-serif;
-
+  
 }
 
-.lone {
-
+.star h1 {
+  font-size: 2rem;
   color: white;
   text-align: center;
-  position: relative;
-  top: 90px;
-
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+}
+.star img {
+  width: 100%;
 }
 
-#img {
-  background: grey url(../images/lone-starfish-wide.jpg) no-repeat center;
+.wild{
+  /* max-width: 1000px; */
   background-size: cover;
-  font-size: 2rem;
-  padding: 3em;
-  max-width: 100%;
+  top: 0;
+  
 }
 
 
@@ -57,7 +59,9 @@ nav ul li {
 
 }
 
-
+.star{
+  position: relative;
+}
 
 nav ul li a {
   display: block;
@@ -82,11 +86,11 @@ nav {
   padding: 0 10px 15px 0px;
 }
 
-
-
-main {
+main{
   margin: 20px;
 }
+
+
 
 footer {
   margin: 0 40px 0 0;
