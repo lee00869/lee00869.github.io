@@ -132,3 +132,23 @@ h3,
 h4 {
   font-size: 18px;
 }
+
+fieldset>div{
+  margin-top: 10px;
+}
+
+div>input{
+  margin-top: 5px;
+}
+
+div>textarea{
+  margin-top: 5px;
+}
+
+.buttom{
+  margin-top: -20px;
+}
+
+.fish{
+  margin-top: 30px;
+}
