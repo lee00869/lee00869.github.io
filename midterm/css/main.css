@@ -104,12 +104,7 @@ footer {
 }
 
 
-h1 {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 aside ul li {
   margin-left: -25px;
