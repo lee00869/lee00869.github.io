@@ -15,9 +15,12 @@ body {
   font-size: 2rem;
   color: white;
   text-align: center;
+  z-index: 2;
+
   position: absolute;
   top: 50%;
-  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .star img {
   width: 100%;
