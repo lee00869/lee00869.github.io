@@ -1,0 +1,30 @@
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+ */
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
+
+header, main{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+ h1, h2 {
+    font-family: 'Satisfy', cursive;
+ }
+
+ .fa-solid{
+    font-size: 6em;
+    color: aquamarine;
+ }
+
+ .map iframe{
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+display: block;
+ }
