@@ -437,18 +437,26 @@ textarea {
     }
     .news .john{
         grid-area: john;
+        width: 600px;
+        height: 400px;
     }
 
     .news .righthand{
         grid-area: righthand;
+        width: 600px;
+        height: 400px;
     }
 
     .news .bob{
         grid-area: bob;
+        width: 600px;
+        height: 400px;
     }
 
     .news .lefthand{
         grid-area: lefthand;
+        width: 600px;
+        height: 400px;
     }
 
     
