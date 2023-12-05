@@ -21,12 +21,12 @@
                 <ul class="nav-list">
                     <!-- ctrl + alt + down arrow to highlight all li -->
                     <li class="color"><img src="images/logo.png" alt="Three Star Logo" class="logo"></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#about" class="current">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li>
+                    <li class="size"><a href="index.html">Home</a></li>
+                    <li class="size"><a href="#about" class="current">About Us</a></li>
+                    <li class="size"><a href="#services">Services</a></li>
+                    <li class="size"><a href="#team">Team</a></li>
+                    <li class="size"><a href="#contact">Contact</a></li>
+                    <li >
                         <form action="search" class="input-group">
                             <input type="search" placeholder="Serach">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -53,8 +53,10 @@
         <main class="content">
             <section id="about"></section>
             <div class="intro">
+                <div class="us">
                 <img src="images/about-us.jpg" alt="About Us" class="about-us">
-
+                </div>
+                <div class="intro-text">
                 <h2>About Us</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam libero eveniet earum officiis
@@ -70,7 +72,7 @@
                     enim
                     assumenda porro ipsa!
                 </p>
-
+                </div>
             </div>
 
             <h2>Our Services</h2>
@@ -224,22 +226,19 @@
                             <div>
 
                                 <label for="fullname">Full Name</label>
-                                <br>
                                 <input type="text" id="fullname" name="fullname" required>
                             </div>
-                            <br>
                             <div>
                                 <label for="email">Email</label>
-                                <br>
                                 <input type="text" id="email" name="youremail" required>
                             </div>
-                            <br>
+        
                             <div>
                                 <label for="message">Message</label>
-                                <br>
+                                
                                 <textarea name="message" id="message"></textarea>
                             </div>
-                            <br>
+                        
 
                             <button type="button" class="send">Send</button>
 
@@ -247,7 +246,8 @@
 
                     </form>
                 </div>
-
+                
+                <div class="hour">
                 <h4>Hours of Operation</h4>
                 <table>
                     <thead>
@@ -266,7 +266,9 @@
 
                     </tbody>
                 </table>
-                <div class="googlmap">
+                </div>
+
+                <div class="googlemap">
                     <h4>Location</h4>
                     <div class="map">
                         <iframe
