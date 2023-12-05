@@ -1,0 +1,456 @@
+/* *********************
+Custom Styles
+***********************/
+
+/* **** Global Styles **** */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+/* loVe HAte: Link, Visited, Hover/Focus, Active */
+
+a,
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+    margin: 1em 0 0.5em;
+}
+
+/* To ensure that font size are portionate to each otherand not radom values: www.modularscale.com */
+h1 {
+    font-size: 5.063rem;
+}
+
+h2 {
+    font-size: 3.375rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    margin: 1em 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/* **** HEADER **** */
+.logo {
+    max-width: 70px;
+}
+
+.header-welcome .welcome {
+    background-color: rgba(46, 46, 46, 0.4);
+    color: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    
+}
+
+.header-welcome {
+    position: relative;
+}
+
+.three-star{
+    margin: 1em;
+}
+
+.header-welcome .connect {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #c68d00;
+    color: black;
+}
+
+.connect:hover,
+.connect:focus {
+    background-color: black;
+    color: #c68d00;
+}
+
+a{
+    font-size: 20px;
+}
+
+/* **** NAVIGATION **** */
+.main-nav {
+    background-color: black;
+    color: #c68d00;
+    padding: 1em;
+    margin: 0 auto;
+
+}
+
+.nav-list {
+    display: grid;
+    font-size: 20px;
+    
+}
+
+.input-group {
+    display: flex;
+    height: 2em;
+    
+}
+
+input {
+    font-size: 20px;
+}
+
+.fa-magnifying-glass {
+    height: 2em;
+    width: 2em;
+    border: 1px solid #c68d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #c68d00;
+}
+
+/* LoVe HAte */
+.nav-list a,
+.nav-list :link,
+.nav-list :visited {
+    display: block;
+    padding: 1em 0;
+    text-align: center;
+
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    background-color: #c68d00;
+    color: black;
+
+}
+
+/* Main */
+.content {}
+
+/* ***** Mobile App Section **** */
+/* ******** App Section ********* */
+.app img {
+    width: 40%;
+    float: left;
+    margin-right: 1em;
+
+}
+
+.app .btn {
+    float: right;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #c68d00;
+    color: inherit;
+}
+
+.more:hover,
+.more:focus {
+    background-color: #c68d00;
+    color: inherit;
+}
+
+/* **** Action Section **** */
+.actions-list {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.actions-list li {
+    max-width: 50%;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.team {
+    margin-top: -2em;
+}
+
+/* **** FOOTER STYLES **** */
+
+.site-footer {
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: black;
+    color: #c68d00;
+}
+
+
+
+/* vision section */
+.vision {
+    position: relative;
+    width: 100%;
+}
+
+.vision-text {
+    color: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: auto;
+    
+}
+
+.ship {
+    height: 300px;
+    width: 100%;
+}
+
+/* ********************* */
+/* DClimate Page style */
+/* ********************* */
+.card,
+.lefthand,
+.righthand,
+.intro {
+
+    margin-bottom: 1em;
+    background-color: #ffe6ac;
+
+}
+
+.card .info {
+    padding: 1em;
+    margin-top: -1em;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+h6 {
+    border-bottom: 2px solid #c68d00;
+}
+
+.intro,
+.team {
+    padding: 1em;
+}
+
+.about-us {
+    margin-bottom: -2em;
+}
+
+.cards {
+    padding: 3em;
+}
+
+.more {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    opacity: 100%;
+    background-color: black;
+    color: white;
+    border: 2px solid #c68d00;
+    z-index: 3;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    background-color: #ffe6ac;
+}
+
+
+
+/* Using the nth-child with n */
+/* where n is 0,1,2,3 until the number of elements end */
+table th:nth-child(n),
+table td:nth-child(n) {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#contact,
+.news {
+    padding: 3em;
+}
+
+div input,
+textarea {
+    width: 100%;
+}
+
+.send {
+    background-color: black;
+    color: #c68d00;
+    padding: 5px;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* **** News Section **** */
+
+
+/* ********************* */
+/* Desktop style */
+/* ********************* */
+
+
+/* **** Media Query 1000px **** */
+@media screen and (min-width: 1000px) {
+
+    /* Change font-size */
+    html {
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    /* Header */
+    .header-welcome .welcome {
+        width: 80%;
+
+    }
+
+    .actions-list li {
+        max-width: 20%;
+    }
+
+    .nav-list {
+        display: flex;
+
+    }
+
+    .nav-list li {
+        flex: 1;
+        border: none;
+
+    }
+
+    /* **** Climate Page Style **** */
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 1em;
+    }
+
+    .cards :nth-child(1) {
+        grid-column: 1 / 4;
+    }
+
+    .cards :nth-child(2) {
+        grid-column: 4 / 7;
+    }
+
+    .cards :nth-child(3) {
+        grid-column: 1 / 3;
+    }
+
+    .cards :nth-child(4) {
+        grid-column: 3 / 5;
+    }
+
+    .cards :nth-child(5) {
+        grid-column: 5 / 7;
+    }
+
+    /* Our Team */
+    .news {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "header header"
+            "john righthand"
+            "lefthand bob "
+        ;
+        grid-gap: 0;
+    }
+    .news h2{
+        grid-area: header;
+    }
+    .news .john{
+        grid-area: john;
+    }
+
+    .news .righthand{
+        grid-area: righthand;
+    }
+
+    .news .bob{
+        grid-area: bob;
+    }
+
+    .news .lefthand{
+        grid-area: lefthand;
+    }
+
+    
+
+}
