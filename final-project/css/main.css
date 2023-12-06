@@ -2,7 +2,7 @@
 Custom Styles
 ***********************/
 
-/* **** Global Styles **** */
+/* **** Three stras Styles **** */
 
 html {
     font-family: Arial, Helvetica, sans-serif;
@@ -39,7 +39,7 @@ h4 {
     margin: 1em 0 0.5em;
 }
 
-/* To ensure that font size are portionate to each otherand not radom values: www.modularscale.com */
+/* To ensure the font size */
 
 
 h1 {
@@ -69,9 +69,6 @@ p {
 }
 
 /* **** HEADER **** */
-.logo {
-    max-width: 70px;
-}
 
 .header-welcome .welcome {
     background-color: rgba(46, 46, 46, 0.7);
@@ -109,12 +106,18 @@ p {
     color: #c68d00;
 }
 
-a {
-    font-size: 20px;
-}
+
 
 
 /* **** NAVIGATION **** */
+
+a {
+    font-size: 20px;
+}
+.logo {
+    max-width: 70px;
+}
+
 .main-nav {
     background-color: black;
     color: #c68d00;
@@ -176,33 +179,16 @@ input {
 
 
 /* ***** Mobile btn Section **** */
-/* ******** App Section ********* */
-
-.btn {
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px;
-    background-color: black;
-    color: white;
-
-}
-
-.btn:hover,
-.btn:focus {
-    background-color: #c68d00;
-    color: inherit;
-}
-
-.more:hover,
-.more:focus {
-    background-color: #c68d00;
-    color: inherit;
-}
 
 
-.team {
-    margin-top: -2em;
-}
+
+
+
+
+
+
+
+
 
 /* vision section */
 .vision {
@@ -232,6 +218,21 @@ input {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.more {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(46, 46, 46, 0.8);
+    color: white;
+    border: 2px solid #c68d00;
+    z-index: 3;
+}
+.more:hover,
+.more:focus {
+    background-color: #c68d00;
+    color: inherit;
 }
 
 /* Form  */
@@ -267,7 +268,7 @@ textarea {
 
 
 /* ********************* */
-/* DClimate Page style */
+/* Section Background color padding margin style */
 /* ********************* */
 .card,
 .lefthand,
@@ -298,7 +299,26 @@ h6 {
     margin-bottom: -2em;
 }
 
+/* Our services section */
+.news {
+    padding: 3em;
+}
 
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #c68d00;
+    color: inherit;
+}
 
 #service{
     padding: 3em;
@@ -310,40 +330,8 @@ h6 {
     padding-bottom: 3em;
 }
 
-.more {
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px;
-    opacity: 100%;
-    background-color: rgba(46, 46, 46, 0.8);
-    color: white;
-    border: 2px solid #c68d00;
-    z-index: 3;
-}
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-table th {
-    background-color: #ffe6ac;
-}
-
-
-
-/* Using the nth-child with n */
-/* where n is 0,1,2,3 until the number of elements end */
-table th:nth-child(n),
-table td:nth-child(n) {
-    border: 2px solid black;
-    padding: 10px;
-}
-
-
-.news {
-    padding: 3em;
-}
+/* Contact Us */
 
 #contact {
     padding-left: 3em;
@@ -362,12 +350,32 @@ textarea {
     padding: 5px;
 }
 
+/* Hours of Operation */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    background-color: #ffe6ac;
+}
+
+
+table th:nth-child(n),
+table td:nth-child(n) {
+    border: 2px solid black;
+    padding: 10px;
+}
+
 .map iframe {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     display: block;
 }
+
+
 
 /* ********************* */
 /* Desktop style */
@@ -478,6 +486,10 @@ textarea {
     }
 
     /* Our Team */
+    .team {
+        margin-top: -2em;
+    }
+
     .news {
         display: grid;
         grid-template-columns: repeat(2, auto);
