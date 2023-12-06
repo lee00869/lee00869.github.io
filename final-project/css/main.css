@@ -34,7 +34,8 @@ a:visited {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     font-weight: bold;
     margin: 1em 0 0.5em;
 }
@@ -42,23 +43,27 @@ h4 {
 /* To ensure the font size */
 
 
-h1 {
-    font-size: 4.375rem;
+h1{
+    font-size: 4.063rem;
 }
 
-h2 {
+h2{
+    font-size: 3.375rem;
+}
+
+h3{
     font-size: 2.25rem;
 }
 
-h3 {
+h4{
     font-size: 1.5rem;
 }
 
-h4 {
+h5{
     font-size: 1rem;
 }
 
-p {
+p{
     margin: 1em 0;
 }
 
@@ -120,7 +125,6 @@ input {
     background-color: #c68d00;
 }
 
-/* main-nav */
 .nav-list a,
 .nav-list :link,
 .nav-list :visited {
@@ -176,6 +180,36 @@ input {
     color: #c68d00;
 }
 
+/* Our services section */
+.news {
+    padding: 3em;
+}
+
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #c68d00;
+    color: inherit;
+}
+
+#service {
+    padding: 3em;
+}
+
+.cards {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+}
 
 
 
@@ -244,15 +278,6 @@ textarea {
     height: 170px;
 }
 
-/* **** FOOTER STYLES **** */
-
-.site-footer {
-    margin-top: 20px;
-    padding: 20px 10px;
-    background-color: black;
-    color: #c68d00;
-}
-
 
 
 
@@ -277,7 +302,7 @@ textarea {
     margin-top: 0;
 }
 
-h6 {
+h5 {
     border-bottom: 2px solid #c68d00;
 }
 
@@ -290,36 +315,6 @@ h6 {
     margin-bottom: -2em;
 }
 
-/* Our services section */
-.news {
-    padding: 3em;
-}
-
-
-.btn {
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px;
-    background-color: black;
-    color: white;
-
-}
-
-.btn:hover,
-.btn:focus {
-    background-color: #c68d00;
-    color: inherit;
-}
-
-#service {
-    padding: 3em;
-}
-
-.cards {
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-bottom: 3em;
-}
 
 
 /* Contact Us */
@@ -366,7 +361,14 @@ table td:nth-child(n) {
     display: block;
 }
 
+/* **** FOOTER STYLES **** */
 
+.site-footer {
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: black;
+    color: #c68d00;
+}
 
 /* ********************* */
 /* Desktop style */
