@@ -142,6 +142,9 @@ input {
 
 }
 
+
+
+
 /* **** HEADER **** */
 
 .header-welcome .welcome {
@@ -503,6 +506,7 @@ table td:nth-child(n) {
     .news .john {
         grid-area: john;
         margin-bottom: -10px;
+
     }
 
     .news .righthand {
