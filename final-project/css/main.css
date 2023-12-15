@@ -86,7 +86,7 @@ a {
 }
 
 .main-nav {
-    background-color: black;
+    background-color: #222;
     color: #c68d00;
     padding: 1em;
     margin: 0 auto;
@@ -123,6 +123,12 @@ input {
     margin-top: auto;
     margin-bottom: auto;
     background-color: #c68d00;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -7px;
 }
 
 .nav-list a,
@@ -174,12 +180,12 @@ input {
     display: inline-block;
     padding: 20px;
     background-color: #c68d00;
-    color: black;
+    color: #222;
 }
 
 .connect:hover,
 .connect:focus {
-    background-color: black;
+    background-color: #222;
     color: #c68d00;
 }
 
@@ -193,7 +199,7 @@ input {
     text-decoration: none;
     display: inline-block;
     padding: 20px;
-    background-color: black;
+    background-color: #222;
     color: white;
 
 }
@@ -334,7 +340,7 @@ textarea {
 }
 
 .send {
-    background-color: black;
+    background-color: #222;
     color: #c68d00;
     padding: 5px;
 }
@@ -353,7 +359,7 @@ table th {
 
 table th:nth-child(n),
 table td:nth-child(n) {
-    border: 2px solid black;
+    border: 2px solid #222;
     padding: 10px;
 }
 
@@ -369,7 +375,7 @@ table td:nth-child(n) {
 .site-footer {
     margin-top: 20px;
     padding: 20px 10px;
-    background-color: black;
+    background-color: #222;
     color: #c68d00;
 }
 
@@ -393,9 +399,18 @@ table td:nth-child(n) {
 
     }
 
-    .logo {
+    
+    .color{
         margin-right: 1em;
+        
     }
+
+    .logo{   
+        max-width: 97px;
+        height: auto;
+    }
+
+
 
     .nav-list {
         display: flex;
