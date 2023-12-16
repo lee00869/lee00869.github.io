@@ -324,7 +324,10 @@ h5 {
     margin-bottom: -2em;
 }
 
-
+/* Our Team */
+.john, .bob{
+    margin-bottom: -10px;
+}
 
 /* Contact Us */
 
